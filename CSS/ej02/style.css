@@ -1,0 +1,79 @@
+
+
+tr {
+    border: 1px solid green;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
+.fila1{   
+    width: 100px;
+    height: 100px;
+    margin:5px;
+    margin-bottom: 20px;
+}
+.fila2{
+    width: 100px;
+    height: 100px;
+    margin:5px;
+    border-radius: 25%;
+    margin-bottom: 20px;
+}
+.fila3{
+    width: 100px;
+    height: 100px;
+    margin:5px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+#uno1 {
+background-color: aqua;
+}
+#uno2{
+    background-color: chocolate;
+}
+#uno3{
+    background-color: blueviolet;
+}
+#uno4{
+    background-color: darkgreen;
+}
+#uno5{
+background-color: crimson;
+}
+
+#dos1 {
+background-color: aqua;
+}
+#dos2{
+   background-color: chocolate;
+}
+#dos3{
+    background-color: blueviolet;
+}
+#dos4{
+    background-color: darkgreen;
+}
+#dos5{
+    background-color: crimson;
+}
+#tres1 {
+    background-color: aqua;
+}
+#tres2{
+    background-color: chocolate;
+}
+#tres3{
+    background-color: blueviolet;
+}
+#tres4{
+    background-color: darkgreen;
+}
+#tres5{
+    background-color: crimson;
+}
+
+#sinborde{border:none}

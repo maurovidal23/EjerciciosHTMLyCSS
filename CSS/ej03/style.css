@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+}
+main{
+    display: grid;
+   grid-template-areas: "uno1 uno2 uno3 uno4 uno5"
+   "dos1 dos2 dos3 dos4 dos5"
+   "tres1 tres2 tres3 tres4 tres5";
+   width: fit-content;
+   gap: 5px;
+}
+
+.fila1{   
+    width: 100px;
+    height: 100px;
+    
+
+}
+.fila2{
+    width: 100px;
+    height: 100px;
+   
+    border-radius: 25%;
+    
+}
+.fila3{
+    width: 100px;
+    height: 100px;
+   
+    
+}
+.col5{
+background-color: black;
+}
+
+#uno1 {
+background-color: aqua;
+}
+#uno2{
+    background-color: chocolate;
+}
+#uno3{
+    background-color: blueviolet;
+}
+#uno4{
+    background-color: darkgreen;
+}
+#uno5{
+background-color: crimson;
+}
+
+#dos1 {
+background-color: aqua;
+}
+#dos2{
+   background-color: chocolate;
+}
+#dos3{
+    background-color: blueviolet;
+}
+#dos4{
+    background-color: darkgreen;
+}
+#dos5{
+    background-color: crimson;
+}
+#tres1 {
+    background-color: aqua;
+}
+#tres2{
+    background-color: chocolate;
+}
+#tres3{
+    background-color: blueviolet;
+}
+#tres4{
+    background-color: darkgreen;
+}
+.fila3>div{
+    background-color: red;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.fila2>div{
+    
+    background-color: red;
+    height: 100%;
+    width: 100%;
+    border-radius: 25%;
+}

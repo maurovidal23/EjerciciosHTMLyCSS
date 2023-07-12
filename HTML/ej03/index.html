@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="name">Nombre:</label>
+        <input type="text" name="text_name" id="name" placeholder="Escribe tu nombre" required>
+        <br>
+        <label for="surname">Apellidos:</label>
+        <input type="text" name="text_surname" id="surname" placeholder="Escribe tus apellidos" required>
+        <br>
+        <label for="tipo_via">Dirección:</label>
+        <input type="text" name="tipo_via" id="tipo_via" placeholder="Tipo de vía" required>
+        <input type="text" name="nombre_via" id="nombre_via" placeholder="Nombre de la vía" required>
+        <br>
+        <label for="codigo_postal">Código postal:</label>
+        <input type="number" name="codigo_postal" id="codigo_postal" required>
+        <br>
+        <label for="ciudad">Ciudad:</label>
+        <input type="text" name="ciudad" id="ciudad" required>
+        <label for="provincia">Provincia:</label>
+        <input type="text" name="provincia" id="provincia">
+        <label for="pais">Pais:</label>
+        <input type="text" name="pais" id="pais">
+        <br>
+        <label for="nacimiento">Fecha de nacimiento:</label>
+        <input type="date" name="nacimiento" id="nacimiento">
+        <br>
+        <label for="nota_media">Nota media estudios universitarios:</label>
+        <input type="number" name="nota_media" id="nota_media">
+        <br>
+        <label for="telefono">Númeroo telefono(sin prefijo):</label>
+        <input type="tel" name="telefono" id="telefono" pattern="[0-9]{9}" required>
+        <br>
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" name="correo" id="correo">
+        <br>
+        <label for="pas1">Contraseña:</label>
+        <input type="password" name="pas1" id="pas1" required>
+        <br>
+        <label for="pas2">Repetir Contraseña:</label>
+        <input type="password" name="pas2" id="pas2" required>
+        <br>
+        <label for="sel_pais">Selecciona un país:</label>
+        <select name="pais" id="sel_pais">
+            <option value="España">España</option>
+            <option value="Francia">Francia</option>
+            <option value="Portugal">Portugal</option>
+            <option value="Andorra">Andorra</option>
+        </select>
+        <br>
+        <label for="tipo_cuentas">Elige el tipo de cuenta:</label>
+        <select name="tipo_cuentas" id="tipo_cuentas">
+            <optgroup label="Acesso díario máximo de 1h en un único dispositivo">
+                <option value="Gratuita">Gratuita</option>
+            </optgroup>
+            <optgroup label="Acesso ilimitado en un único dispositivo">
+                <option value="Básico">Básica</option>
+            </optgroup>
+            <optgroup label="Acesso ilimitado hasta un máximo de 4 dispositivos">
+                <option value="Premium">Premium</option>
+            </optgroup>
+        </select>
+        <br>
+        <label for="">Sobre mi:</label>
+        <br>
+        <textarea name="caja_descripción" id="caja_descripción" cols="30" rows="10"></textarea>
+        <br>
+        <label for="avatar">Elige tu foto de perfil:</label>
+        <input type="file" name="avatar" id="avatar" accept="image/png , image/jpeg">
+        <br>
+        <label for="cv">CV:</label>
+        <input type="file" name="cv" id="cv" accept="cv/pdf">
+
+
+    </form>
+</body>
+</html>
