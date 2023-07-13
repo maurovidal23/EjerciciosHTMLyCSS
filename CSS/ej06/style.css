@@ -1,0 +1,113 @@
+body{
+    margin-top: 20;
+}
+main{
+    display: grid;
+   grid-template-areas: "uno1 uno2 uno3 uno4 uno5"
+   "dos1 dos2 dos3 dos4 dos5"
+   "tres1 tres2 tres3 tres4 tres5";
+   gap: 15px;
+   justify-content: space-around;
+}
+
+
+.fila1{   
+    margin-top: 30%;
+    width: 100px;
+    height: 100px;
+   transform: rotate(45deg);
+  
+}
+
+.fila2{
+    margin-top: 30%;
+    transform: rotate(45deg);
+    width: 100px;
+    height: 100px;
+    border-radius: 25%;
+
+}
+.fila3{
+    margin-top: 30%;
+    transform-origin: 25px 25px;
+    transform: rotate(45deg);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.fila1:hover{
+    transform: rotate(0deg)
+}
+.fila2:hover{
+    transform: rotate(0deg)
+}
+.fila3:hover{
+    transform: rotate(0deg)
+}
+.col1{
+    border: 3px solid;
+    border-color: chocolate;
+}
+.col2{
+    border:3px;
+    border-style: dashed;
+    border-color: blueviolet;
+}
+.col3{
+    border: 5px;
+    border-style: dotted;
+    border-color: darkgreen;
+}
+.col4{
+    border:3px;
+    border-style:solid;
+    border-color: crimson;
+}
+
+
+#uno1 {
+background-color: aqua;
+}
+#uno2{
+    background-color: chocolate;
+}
+#uno3{
+    background-color: blueviolet;
+}
+#uno4{
+    background-color: darkgreen;
+}
+#uno5{
+background-color: crimson;
+}
+
+#dos1 {
+background-color: aqua;
+}
+#dos2{
+   background-color: chocolate;
+}
+#dos3{
+    background-color: blueviolet;
+}
+#dos4{
+    background-color: darkgreen;
+}
+#dos5{
+    background-color: crimson;
+}
+#tres1 {
+    background-color: aqua;
+}
+#tres2{
+    background-color: chocolate;
+}
+#tres3{
+    background-color: blueviolet;
+}
+#tres4{
+    background-color: darkgreen;
+}
+#tres5{
+    background-color: crimson;
+}
