@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+}
+main{
+    display: grid;
+   grid-template-areas: "uno1 uno2 uno3 uno4 uno5"
+   "dos1 dos2 dos3 dos4 dos5"
+   "tres1 tres2 tres3 tres4 tres5";
+   width: fit-content;
+   gap: 5px;
+}
+
+.fila1{   
+    width: 100px;
+    height: 100px;
+    
+
+}
+.fila2{
+    width: 100px;
+    height: 100px;
+    
+}
+.fila3{
+    width: 100px;
+    height: 100px;
+   
+    
+}
+
+
+
+.fila3>div{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.fila2>div{
+    height: 100%;
+    width: 100%;
+    border-radius: 25%;
+}
+.fila1>div{
+    height: 100%;
+    width: 100%;
+}
+
+.col1{
+    background-color: chocolate;
+}
+.col1>div{
+    background-color: aqua;
+}
+
+.col2{
+    background-color: blueviolet;
+}
+.col2>div{
+    background-color: chocolate;
+}
+.col3{
+    background-color: darkgreen;
+}
+.col3>div{
+    background-color: blueviolet;
+}
+.col4{
+    background-color: crimson;
+}
+.col4>div{
+    background-color: darkgreen;
+}
+.col5>div{
+background-color: crimson;
+}

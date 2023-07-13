@@ -1,5 +1,5 @@
 body{
-    margin: 0;
+    margin: 3;
 }
 main{
     display: grid;
@@ -13,25 +13,39 @@ main{
 .fila1{   
     width: 100px;
     height: 100px;
-    
-
+  
 }
 .fila2{
     width: 100px;
     height: 100px;
-   
     border-radius: 25%;
-    
+
 }
 .fila3{
     width: 100px;
     height: 100px;
-   
-    
+    border-radius: 50%;
 }
-.col5{
-background-color: black;
+.col1{
+    border: 3px solid;
+    border-color: chocolate;
 }
+.col2{
+    border:3px;
+    border-style: dashed;
+    border-color: blueviolet;
+}
+.col3{
+    border: 5px;
+    border-style: dotted;
+    border-color: darkgreen;
+}
+.col4{
+    border:3px;
+    border-style:solid;
+    border-color: crimson;
+}
+
 
 #uno1 {
 background-color: aqua;
@@ -76,16 +90,6 @@ background-color: aqua;
 #tres4{
     background-color: darkgreen;
 }
-.fila3>div{
-    background-color: red;
-    height: 100%;
-    width: 100%;
-    border-radius: 50%;
-}
-.fila2>div{
-    
-    background-color: red;
-    height: 100%;
-    width: 100%;
-    border-radius: 25%;
+#tres5{
+    background-color: crimson;
 }
