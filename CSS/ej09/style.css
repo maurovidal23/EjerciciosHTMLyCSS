@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#sol{
+    position: relative;
+    left: -20vw;
+    width: 30vw;
+    height: 100vh;
+    border-radius: 50%;
+    background-color: yellow;
+    align-items: center;
+}
+
+#mer{
+    width: 3vw;
+    z-index: 2;
+    height: 3vh;
+    border-radius: 50%;
+    background-color: red;
+}
+
+#orbita_mercurio{
+    position: absolute;
+    z-index: 1;
+    top:0px;
+    width: 41.3vw;
+    height: 100vh;
+    border-right: 4px solid black;
+   
+    border-radius: 50%;
+}
+
+#venus{
+    width: 4.5vw;
+    z-index: 2;
+    height: 4.5vh;
+    border-radius: 50%;
+    background-color: rgb(1, 78, 1);
+
+}
+
+#orbita_venus{
+    position: absolute;
+    left: 0px;
+    z-index: 1;
+    top:0px;
+    width: 52.5vw;
+    height: 100vh;
+    border-right: 4px solid black;
+   
+    border-radius: 50%;
+}
